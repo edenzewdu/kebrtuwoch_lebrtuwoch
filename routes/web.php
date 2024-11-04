@@ -22,7 +22,7 @@ use App\Http\Controllers\StrengthStoriesController;
 // Route::get('/', [HomeController::class, 'home'])->middleware('auth')->name('home');
 Route::get('/', [HomeController::class, 'home']);
 Route::get('/about', [AboutController::class, 'about']);
-Route::get('/ourStrongest', [OurStrongestController::class, 'ourStrongest']);
+Route::resource('ourStrongest', OurStrongestController::class);
 Route::get('/videos', [VideosController::class, 'videos']);
 Route::get('/contact', [ContactController::class, 'contact']);
 Route::get('/strengthStories', [StrengthStoriesController::class, 'strengthStories']);
