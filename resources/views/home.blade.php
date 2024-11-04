@@ -15,7 +15,7 @@
                   <!-- Wave svg -->
                   <path stroke="#ffffff" stroke-width="4" fill="none" d="M0,60L48,80C96,100,192,140,288,150C384,160,480,120,576,130C672,140,768,180,864,175C960,170,1056,130,1152,130C1248,130,1344,160,1392,180L1440,200"></path>
                   </svg>
-            <img src="images/Picture1-removebg-preview.png" alt="Flexing Arm" class="logon">
+            <img src="images/channels4_banner.jpg" alt="Flexing Arm" class="logon">
           </div>
             <div class="arm-container">
               <img src="images/arm-flex.png" alt="Flexing Arm" class="flexing-arm">
