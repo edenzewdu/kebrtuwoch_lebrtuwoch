@@ -4,7 +4,7 @@
     @include('home.homecss')
     <script>
         async function fetchLatestVideos() {
-            const apiKey = 'AIzaSyByv2zCRUDpnqB8Vhc5JJJrEKsK5t5NfEw'; // Replace with your YouTube API key
+            const apiKey = ''; // Replace with your YouTube API key
             const channelId = ''; // Replace with your YouTube channel ID
             const maxResults = 5; // Number of videos to fetch
 
