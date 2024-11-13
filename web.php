@@ -7,6 +7,8 @@ use App\Http\Controllers\VideosController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\OurStrongestController;
 use App\Http\Controllers\StrengthStoriesController;
+use App\Http\Controllers\SubscriptionController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -26,3 +28,5 @@ Route::resource('ourStrongest', OurStrongestController::class);
 Route::get('/videos', [VideosController::class, 'videos']);
 Route::get('/contact', [ContactController::class, 'contact']);
 Route::get('/strengthStories', [StrengthStoriesController::class, 'strengthStories']);
+Route::get('/subscribe', [SubscriptionController::class, 'showForm'])->name('subscribe.showForm');
+Route::post('/subscribe', [SubscriptionController::class, 'store'])->name('subscribe.store');
